@@ -21,12 +21,12 @@ class CustomButton extends StatelessWidget {
       onPressed: ontap,
       style: TextButton.styleFrom(
         minimumSize: Size(width, height),
-        backgroundColor: kLightBlue,
+        backgroundColor: kDark,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
       ),
       child: Text(
         buttonText,
-        style: appStyle(15, kDark, FontWeight.bold),
+        style: appStyle(15, kLight, FontWeight.bold),
       ),
     );
   }
